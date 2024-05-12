@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <main class = "section_container">
+        
+        <h1>Formulário de contato</h1>
+        <section class="solicitacoes">
+            <label for="Nome"><strong>Nome:</strong></label>
+            <input type="text" name="name" id="name">
+            <p id="alerta1"></p>
+        </section>
+
+        <section class="solicitacoes">
+            <label for="Email"><strong>E-mail:</strong></label>
+            <input type="email" name="email" id="email">
+            <p id="alerta2"></p>
+        </section>
+
+        <section class="solicitacoes">
+            <label for="mensagem"><strong>Mensagem:</strong></label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            <p id="alerta3"></p>
+        </section>
+        
+        <section class="solicitacoes">
+            <button id="button" onclick="alertar()">Enviar</button>
+        </section>
+    </main>   
+
+</body>
+</html>

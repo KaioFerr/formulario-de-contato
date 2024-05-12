@@ -1,0 +1,140 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: #cec8c8;
+    padding: 0% 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+input{
+    height: 20px;
+    margin: 0;
+    padding: 4px;
+}
+
+#input_alerta {
+    
+    
+    padding: 4px;
+    border: red solid 2px;
+}
+
+textarea{
+    padding: 10px;
+}
+
+#textarea_alerta {
+    padding: 10px;
+    border: red solid 2px;
+}
+
+button {
+    font-size: 16px;
+    color: #fff;
+    background-color: #23ac07;
+    border: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1f9607;
+}
+
+.section_container{
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 90vh;
+    border-radius: 8px;
+}
+
+.solicitacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: center;
+    width: 50vw;
+    
+}
+
+
+
+#alerta1, #alerta2, #alerta3{
+    color: red;
+}
+
+
+#botao {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+@media (max-width: 767px) {
+
+    body{
+        padding: 0% 5%;
+    }
+
+    .solicitacoes{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-self: center;
+        width: 75vw;
+        
+    }
+
+    #input_alerta {
+        padding: 4px;
+        border: red solid 2px;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    body{
+        padding: 0% 5%;
+    }
+
+    .section_container{
+        height: 75vh;
+    }
+
+    .solicitacoes{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-self: center;
+        width: 75vw;
+        
+    }
+
+    #input_alerta {
+        padding: 4px;
+        border: red solid 2px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+    
+}
